@@ -31,6 +31,7 @@
   -o-transition: width 0.5s;
   transition: width 0.5s;
 }
+
 .section.notes:hover {
   -webkit-box-flex: initial;
   -webkit-flex: initial;
