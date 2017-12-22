@@ -1,24 +1,44 @@
 .section.tags {
-  flex: none !important;
+  -webkit-box-flex: 0 !important;
+  -webkit-flex: none !important;
+      -ms-flex: none !important;
+          flex: none !important;
   width: 120px !important;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s;
 }
 
 .section.tags:hover {
-  flex: initial;
+  -webkit-box-flex: initial;
+  -webkit-flex: initial;
+      -ms-flex: initial;
+          flex: initial;
   width: 180px !important;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s;
 }
 
 
 .section.notes {
-  flex: none !important;
+  -webkit-box-flex: 0 !important;
+  -webkit-flex: none !important;
+      -ms-flex: none !important;
+          flex: none !important;
   width: 200px !important;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s;
 }
 
 .section.notes:hover {
-  flex: initial;
+  -webkit-box-flex: initial;
+  -webkit-flex: initial;
+      -ms-flex: initial;
+          flex: initial;
   width: 350px !important;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
   transition: width 0.5s;
 }
